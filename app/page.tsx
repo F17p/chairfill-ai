@@ -1,8 +1,8 @@
-	mport Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Features from "@/components/Features";
-import Pricing from "@/components/Pricing";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/landing/Navbar";
+import Hero from "@/components/landing/Hero";
+import Features from "@/components/landing/Features";
+import Pricing from "@/components/landing/Pricing";
+import Footer from "@/components/landing/Footer";
 
 export default function Home() {
   return (
@@ -16,7 +16,6 @@ export default function Home() {
       <Pricing />
 
       <Footer />
-
     </main>
   );
 }
